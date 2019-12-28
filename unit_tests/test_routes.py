@@ -1,10 +1,10 @@
 import pytest
-from portfolio_app.portfolio import portfolio_app
+from portfolio_app.portfolio import start_app
 
 
 @pytest.fixture
 def client():
-    app = portfolio_app()
+    app = start_app()
     app.config['TESTING'] = True
     app.config['WTF_CSRF_ENABLED'] = False
     yield app
