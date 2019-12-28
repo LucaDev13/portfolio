@@ -12,8 +12,14 @@ def client():
 
 def test_homepage(client):
     with client.test_client() as c:
-        rv = c.get('/')
-        assert rv.status_code == 200
+        response = c.get('/')
+        assert response.status_code == 200
+
+
+def test_about_page(client):
+    with client.test_client() as c:
+        response = c.get('/about')
+        assert response.status_code == 200
 
 
 @pytest.mark.skip
