@@ -3,6 +3,9 @@
  - Run tests:
     sh run_tests.sh
     
+ - Run application locally:  
+    sh start_app.sh
+    
  - Build docker:
     sh build_docker.sh
  
