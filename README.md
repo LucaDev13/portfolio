@@ -23,6 +23,17 @@
 
 As the app should handle traffic in SSL:
 
-1. Created an SSL certificate in AWS Certificate manager pointed to the Route53 DNS record
-2. Created Load balancer with two availability zones listening on 443
-3. Registered the instance in the target group
+1. Create an SSL certificate in AWS Certificate manager pointed to the Route53 DNS record
+2. Create Load balancer with two availability zones listening on 443
+3. Register the instance in the target group
+
+- Deployment on Digital ocean:
+1. Create a [Docker Droplet](https://marketplace.digitalocean.com/apps/docker)
+2. SSH into the newly created droplet
+3. docker pull lucadev15/portfolio:latest
+4. docker run -d -p 80:5000 lucadev15/portfolio:latest
+
+As the app should handle traffic in SSL:
+
+1. Create Load Balancer and Let's Encrypt certificate
+2. Set up forwarding rule HTTPS 443 > HTTP 80
