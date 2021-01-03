@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to Luca Melis Portfolio
 
-You can use the [editor on GitHub](https://github.com/LucaDev13/portfolio/edit/portfolio_blog/docs/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the links below if you either want to contact me or download my CV
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About me 
 
-### Markdown
+I am a technology professional with international experience in sectors such as HR software, cloud communication APIs, payment processing.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Skills
 
-```markdown
-Syntax highlighted code block
+I use test driven development to write solid applications to solve real life business problems. I use Python Java and Ruby for programming.
 
-# Header 1
-## Header 2
-### Header 3
+Experienced with cloud platforms and in working with large amount of data with creating reports and dashboards for monitoring and data analysis.
 
-- Bulleted
-- List
+### Contact me
 
-1. Numbered
-2. List
+You can book a 30 minutes slot to have a conversation by using this [link](https://calendly.com/devz/30min)
 
-**Bold** and _Italic_ and `Code` text
+[Download my CV](https://luca-melis.s3.eu-west-2.amazonaws.com/Luca_Melis.pdf)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LucaDev13/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
